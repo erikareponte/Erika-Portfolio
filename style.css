@@ -5,6 +5,44 @@ body {
     margin: 0;
     padding: 0;
 }
+/* Navigation Bar */
+.navbar {
+  background: #ffffff;
+  padding: 15px 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Container */
+.nav-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+/* Tabs */
+.nav-tab {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+
+/* Hover Effect */
+.nav-tab:hover {
+  background-color: #ff69b4;
+  color: white;
+}
+
+/* Active Tab */
+.nav-tab.active {
+  background-color: #ff69b4;
+  color: white;
+}
 .hero {
     background-color: #FADADD;
     text-align: center;
